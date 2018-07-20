@@ -5,11 +5,11 @@ Road map
 
 Decide if we are gonna make an independent team for the USA ww2 units as they are indpendent or we can just replace the gear like we do.
 
-* Add custom WW2 bases for blufor & opfor in      \\\\ Common\Config\Base "Base_West/East.sqf"
+* Add custom WW2 Units and vehs to the factories  \\\\ Common\Config\Factories "All files"
 
 * Add custom WW2 Defenses blufor & opfor & Indp   \\\\ Common\Config\Defenses "All Files"
 
-* Add custom WW2 Units and vehs to the factories  \\\\ Common\Config\Factories "All files"
+* Add custom WW2 bases for blufor & opfor in      \\\\ Common\Config\Base "Base_West/East.sqf"
 
 * Change all Gear for blufor & opfor and replce with ww2 \\\\ Common\Config\Gear "Gear_East/west"
 
