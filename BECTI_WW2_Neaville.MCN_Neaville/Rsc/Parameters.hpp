@@ -101,6 +101,12 @@ class Params {
 		texts[] = {"5","10","15","20"};
 		default = 10;
 	};
+	class Economy {
+		title = "============ Economy ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
+	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
 		values[] = {30,60,90,120,160,190};
@@ -155,6 +161,12 @@ class Params {
 		texts[] = {"Disabled","Enabled"};
 		default = 0;
 	};
+	class ENVIRONMENT {
+		title = "============ Environment ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
+	};
 	class CTI_ENVIRONMENT_STARTING_HOUR {
 		title = "ENVIRONMENT: Starting Hour";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26};
@@ -175,6 +187,12 @@ class Params {
 		"24H = 6H","24H = 5H30","24H = 5H","24H = 4H30","24H = 4H"};
 		default = 0;
 	};
+	class GAMEPLAY {
+		title = "============ Gameplay ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
+	};
 	class CTI_GAMEPLAY_TEAMSTACK_DISABLE {
 		title = "GAMEPLAY: Kick Team Stackers";
 		values[] = {0,1,2,3,4,5};
@@ -185,6 +203,12 @@ class Params {
 		title = "GAMEPLAY: Kick Team Swappers";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
+		default = 0;
+	};
+	class RESPAWN {
+		title = "============ Respawn ============";
+		values[] = {0,1};
+		texts[] = {"",""};
 		default = 0;
 	};
 	class CTI_RESPAWN_AI {
@@ -234,6 +258,12 @@ class Params {
 		values[] = {50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1500,2000,2500,3000,3500,4000};
 		texts[] = {"50m","100m","150m","200m","250m","300m","350m","400m","450m","500m","550m","600m","650m","700m","750m","800m","850m","900m","950m","1000m","1500m","2000m","2500m","3000m","3500m","4000m"};
 		default = 4000;
+	};
+	class TOWNS {
+		title = "============ Towns ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
 	};
 	class CTI_TOWNS_AMOUNT {
 		title = "TOWNS: Amount";
@@ -295,6 +325,12 @@ class Params {
 		texts[] = {"Unlocked","Locked (Resistance)","Locked (Occupation)","Locked (Resistance and Occupation)"};
 		default = 2;
 	};
+	class VEHICLES {
+		title = "============ Vehicles ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
+	};
 	class CTI_VEHICLES_AIR_FFAR {
 		title = "UNITS: Aircraft FFAR Rockets";
 		values[] = {0,1,2};
@@ -324,6 +360,12 @@ class Params {
 		values[] = {1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"1","2","3","4","5","6","7","8","9","10"};
 		default = 2;
+	};
+	class other {
+		title = "============ Other ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = "UNITS: Show Map Infantry";

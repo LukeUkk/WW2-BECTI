@@ -162,8 +162,8 @@ if (_attempts >= 500) then {
 	{
 		_model = _x select 0;
 		_equipment = _x select 1;
-		_var = missionNameSpace getVariable _model;
-		_script = _var select CTI_UNIT_SCRIPTS;
+		_varr = missionNameSpace getVariable _model;
+		_script = _varr select CTI_UNIT_SCRIPTS;
 		
 		_vehicle = [_model, _startPos, 0, _side, false, true, true] call CTI_CO_FNC_CreateVehicle;
 		[_vehicle, getPos _hq, 45, 60, true, false, true] call CTI_CO_FNC_PlaceNear;
