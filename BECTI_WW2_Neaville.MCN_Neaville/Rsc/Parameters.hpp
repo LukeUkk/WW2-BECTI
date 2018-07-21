@@ -1,4 +1,10 @@
 class Params {
+	class AI {
+		title = "============ AI ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
+	};
 	class CTI_AI_TEAMS_JIP_PRESERVE {
 		title = "AI: Keep units on JIP";
 		values[] = {0,1};
@@ -28,6 +34,12 @@ class Params {
 		values[] = {2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,35,40,45,50,60,70,80,90,100};
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
 		default = 12;
+	};
+	class Base {
+		title = "============ Base ============";
+		values[] = {0,1};
+		texts[] = {"",""};
+		default = 0;
 	};
 	class CTI_ARTILLERY_SETUP {
 		title = "ARTILLERY: Setup";

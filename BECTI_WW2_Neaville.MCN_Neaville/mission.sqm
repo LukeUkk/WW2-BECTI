@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=407;
+		nextID=569;
 	};
 	class Camera
 	{
-		pos[]={1819.1471,92.460831,691.44348};
-		dir[]={-0.90574777,-0.37190342,-0.20356588};
-		up[]={-0.36289105,0.92825502,-0.081559643};
-		aside[]={-0.21929382,-1.5599653e-007,0.97572398};
+		pos[]={1671.3779,116.71806,830.97357};
+		dir[]={-0.23349734,-0.245235,0.94099599};
+		up[]={-0.059073914,0.96944845,0.23806731};
+		aside[]={0.9706291,5.7043508e-008,0.24085158};
 	};
 };
 binarizationWanted=0;
@@ -32,21 +32,13 @@ addons[]=
 	"A3_Characters_F",
 	"A3_Ui_F",
 	"WW2_Core_c_IF_Gui_c",
-	"A3_Modules_F",
-	"WW2_Assets_c_Characters_Americans_c_US_Army",
-	"WW2_Assets_c_Vehicles_Wheeled_c_GMC",
-	"WW2_Assets_c_Vehicles_Extended_HUD_c",
-	"WW2_Assets_c_Vehicles_Icons_c",
-	"WW2_Assets_c_Vehicles_ModelConfig_c",
-	"WW2_Assets_c_Vehicles_Pictures_c",
-	"WW2_Assets_c_Vehicles_SimpleObjects_c",
-	"WW2_Core_c_WW2_EditorPreviews_c"
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=4;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -72,46 +64,6 @@ class AddonsMetaData
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item4
-		{
-			className="WW2_Assets_c_Characters_Americans_c_US_Army";
-			name="WW2_Assets_c_Characters_Americans_c_US_Army";
-		};
-		class Item5
-		{
-			className="WW2_Assets_c_Vehicles_Wheeled_c_GMC";
-			name="WW2_Assets_c_Vehicles_Wheeled_c_GMC";
-		};
-		class Item6
-		{
-			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
-			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
-		};
-		class Item7
-		{
-			className="WW2_Assets_c_Vehicles_Icons_c";
-			name="WW2_Assets_c_Vehicles_Icons_c";
-		};
-		class Item8
-		{
-			className="WW2_Assets_c_Vehicles_ModelConfig_c";
-			name="WW2_Assets_c_Vehicles_ModelConfig_c";
-		};
-		class Item9
-		{
-			className="WW2_Assets_c_Vehicles_Pictures_c";
-			name="WW2_Assets_c_Vehicles_Pictures_c";
-		};
-		class Item10
-		{
-			className="WW2_Assets_c_Vehicles_SimpleObjects_c";
-			name="WW2_Assets_c_Vehicles_SimpleObjects_c";
-		};
-		class Item11
-		{
-			className="WW2_Core_c_WW2_EditorPreviews_c";
-			name="WW2_Core_c_WW2_EditorPreviews_c";
 		};
 	};
 };
@@ -175,7 +127,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=37;
+		items=35;
 		class Item0
 		{
 			dataType="Group";
@@ -1748,7 +1700,7 @@ class Mission
 							};
 							id=334;
 							type="LocationCamp_F";
-							atlOffset=35.045494;
+							atlOffset=35.045486;
 						};
 						class Item2
 						{
@@ -1989,7 +1941,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1476.8152,61.356083,4303.543};
-								angles[]={-0,5.9210873,6.2671461};
+								angles[]={0,5.9210873,6.2671461};
 							};
 							id=354;
 							type="LocationCamp_F";
@@ -2670,72 +2622,6 @@ class Mission
 			id=409;
 			type="HeadlessClient_F";
 			atlOffset=0.0048217773;
-		};
-		class Item35
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1803.771,82.109688,684.86115};
-						angles[]={6.2535114,0,6.2824135};
-					};
-					side="Independent";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=437;
-					type="LIB_US_driver";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=437;
-						item1=436;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-				};
-			};
-			id=435;
-		};
-		class Item36
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1803.7056,83.635605,683.16077};
-				angles[]={6.2535114,0,6.2824135};
-			};
-			side="Independent";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=436;
-			type="LIB_US_GMC_Ambulance";
 		};
 	};
 	class Connections
