@@ -153,9 +153,9 @@ if ((missionNamespace getVariable "CTI_ECONOMY_CURRENCY_SYSTEM") == 1) then {
 
 //--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-	[["arifle_SPAR_01_blk_F",["","acc_flashlight","optic_Holosight_blk_F",""],["30Rnd_556x45_Stanag"]],["launch_nlaw_f",[],["nlaw_f"]],["",[],[]]],
-	[["U_B_T_Soldier_F",["firstaidkit","firstaidkit"]],["V_PlateCarrier1_tna_F",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]],["B_ViperLightHarness_oli_F",["handgrenade","handgrenade","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","nlaw_f","nlaw_f"]]],
-	["H_HelmetB_Light_tna_F",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["LIB_M1_Garand",["","acc_flashlight","",""],["LIB_8Rnd_762x63"]],["LIB_M1A1_Bazooka",[],["LIB_1Rnd_60mm_M6"]],["",[],[]]],
+	[["U_LIB_USA_NCO_InfM41VgPmPfcRM1Gar",["firstaidkit","firstaidkit"]],["V_LIB_USA_VestAsstMG_00",["LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63"]],["B_LIB_US_M36_Rope",["handgrenade","handgrenade","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_1Rnd_60mm_M6",""]]],
+	["H_LIB_US_HelmetNetnsKaki0C_NxNx",""],[["","binocular"],["itemmap","","itemradio","itemcompass","itemwatch"]]]];
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["arifle_Mk20_plain_F",["","acc_flashlight","optic_Holosight_blk_F",""],["30Rnd_556x45_Stanag"]],["launch_rpg32_f",[],["rpg32_f"]],["",[],[]]],
 	[["U_O_T_Officer_F",["firstaidkit","firstaidkit"]],["V_HarnessO_ghex_F",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]],["B_ViperLightHarness_ghex_F",["handgrenade","handgrenade","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","rpg32_f","rpg32_f"]]],

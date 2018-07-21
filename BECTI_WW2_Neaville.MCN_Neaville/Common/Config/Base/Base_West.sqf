@@ -71,7 +71,7 @@ _specials = [];
 */
 
 _headers = _headers 		+ [[CTI_HQ_DEPLOYED, "HQ", "HQdeployed"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Ammostore2", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [CTI_BASE_HQ_DEPLOY_COST];
 _times = _times 			+ [1];
 _placements = _placements 	+ [[0, 15]];

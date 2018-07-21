@@ -1,20 +1,20 @@
 with missionNamespace do {
 	//--- Infantry
-	WEST_SOLDIER = ["LIB_USA_NCO_InfM41VgPmPvtRM1Gar", 1];
+	WEST_SOLDIER = ["B_T_Soldier_F", 1];
 	WEST_SOLDIER_AA = ["B_T_soldier_AA_F", 1];
 	WEST_SOLDIER_AR = ["B_T_Soldier_AR_F", 1];
-	WEST_SOLDIER_AT = ["LIB_USA_NCO_AT_soldier_infM41VgPmPfcM1Car", 1];
+	WEST_SOLDIER_AT = ["B_T_Soldier_LAT_F", 1];
 	WEST_SOLDIER_CREW = ["B_T_crew_F", 1];
-	WEST_SOLDIER_LAT = ["LIB_USA_NCO_AT_soldier_infM41VgPmPfcM1Car", 1];
+	WEST_SOLDIER_LAT = ["B_T_Soldier_LAT_F", 1];
 	WEST_SOLDIER_HAT = ["B_T_Soldier_AT_F", 1];
 	WEST_SOLDIER_ENGINEER = ["B_T_engineer_F", 1];
 	WEST_SOLDIER_GL = ["B_T_Soldier_GL_F", 1];
 	WEST_SOLDIER_MEDIC = ["B_T_medic_F", 1];
-	WEST_SOLDIER_PILOT = ["LIB_USA_NCO_PilotM41VmPm1LtColt", 1];
+	WEST_SOLDIER_PILOT = ["B_T_helipilot_F", 1];
 	WEST_SOLDIER_SQUADLEADER = ["B_T_Soldier_SL_F", 1];
 	WEST_SOLDIER_SNIPER = ["B_T_Sniper_F", 1];
 	WEST_SOLDIER_MARKSMAN = ["B_T_Soldier_M_F", 1];
-	WEST_SOLDIER_TEAMLEADER = ["LIB_USA_NCO_InfM41VgPmPvtRM1Gar", 1];
+	WEST_SOLDIER_TEAMLEADER = ["B_T_Soldier_TL_F", 1];
 	WEST_SOLDIER_HEAVYGUNNER = ["B_T_HeavyGunner_F", 1];
 	
 	//--- Vehicles

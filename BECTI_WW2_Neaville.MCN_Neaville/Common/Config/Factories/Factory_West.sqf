@@ -2,19 +2,19 @@ private ["_side", "_u"];
 
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Commander", _side], "LIB_USA_NCO_InfM41VgPm1LtM1Car"];
-missionNamespace setVariable [format["CTI_%1_Worker", _side], "LIB_USA_NCO_InfM41VgPmPvtRM1Gar"];
+missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_officer_F"];
+missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_Soldier_unarmed_F"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_diver_f"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "LIB_USA_NCO_AT_soldier_InfM41VgPmPvtRM1Gar"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "B_Soldier_F"];
 missionNamespace setVariable [format["CTI_%1_Crew", _side], "B_crew_F"];
 missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_Helipilot_F"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_nato_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["B_Truck_01_medical_F", [
-		["arifle_mx_gl_f", 2], ["30Rnd_65x39_caseless_mag", 50],
+	["LIB_US_GMC_Ambulance", [
+		["LIB_M1_Garand", 2], ["30Rnd_65x39_caseless_mag", 50],
 		["arifle_MXM_F", 1], ["100Rnd_65x39_caseless_mag", 10],
 		["launch_NLAW_F", 3], ["NLAW_F", 12], 
 		["HandGrenade", 20], 
@@ -25,7 +25,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["optic_Holosight", 2]
 	]], 
 	["B_LSV_01_armed_F", [
-		["arifle_mx_gl_f", 2], ["30Rnd_65x39_caseless_mag", 50],
+		["LIB_M1_Garand", 2], ["30Rnd_65x39_caseless_mag", 50],
 		["arifle_MXM_F", 1], ["100Rnd_65x39_caseless_mag", 10],
 		["launch_NLAW_F", 3], ["NLAW_F", 12], 
 		["HandGrenade", 20], 
@@ -47,7 +47,7 @@ _u = _u		+ ["B_T_soldier_M_F"];
 _u = _u		+ ["B_T_medic_F"];
 _u = _u		+ ["B_T_Soldier_F"];
 _u = _u		+ ["B_T_soldier_PG_F"];
-_u = _u		+ ["LIB_USA_NCO_AT_soldier_InfM41VgPmPvtRM1Gar"];
+_u = _u		+ ["B_T_Soldier_lite_F"];
 _u = _u		+ ["B_T_engineer_F"];
 _u = _u		+ ["B_T_Sharpshooter_F"];
 _u = _u		+ ["B_T_sniper_F"];  
@@ -61,7 +61,7 @@ _u = _u		+ ["B_T_soldier_AT_F"];
 _u = _u		+ ["B_T_spotter_F"];
 _u = _u		+ ["B_T_soldier_UAV_F"];
 _u = _u		+ ["B_T_Helipilot_F"];
-_u = _u		+ ["LIB_US_Bomber_Crew"];
+_u = _u		+ ["B_T_crew_F"];
 _u = _u		+ ["B_T_Soldier_SL_F"];
 _u = _u		+ ["B_T_Soldier_TL_F"];
 _u = _u		+ ["B_T_soldier_M_F"];
@@ -80,7 +80,7 @@ _u = _u		+ ["B_T_recon_JTAC_F"];
 _u = _u		+ ["B_T_soldier_AAR_F"];
 _u = _u		+ ["B_T_soldier_AAT_F"];
 _u = _u		+ ["B_T_soldier_AAA_F"];
-_u = _u		+ ["LIB_USA_NCO_PilotM41VmPm1LtColt"];
+_u = _u		+ ["B_T_Pilot_F"];
 _u = _u		+ ["B_T_helicrew_F"];
 _u = _u		+ ["B_T_soldier_PG_F"];
 _u = _u		+ ["B_support_MG_F"];

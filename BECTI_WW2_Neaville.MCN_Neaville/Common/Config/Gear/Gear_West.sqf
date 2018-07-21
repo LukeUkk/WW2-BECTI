@@ -3,35 +3,54 @@ private ["_faction", "_i", "_p", "_side", "_u"];
 _side = _this;
 _faction = "West";
 
-_i = [];
-_u = [];
-_p = [];
+//  ----------WW2 Gear----------
 
-//--- WW2
+// --- Helms
+_i = _i + ["H_LIB_US_HelmetNetnsKaki0C_NxNx"]; //  pvt
+_u = _u	+ [0];
+_p = _p	+ [20];
 
-_i = _i		+ ["LIB_M1_Carbine"];
-_u = _u		+ [0];
-_p = _p		+ [40];
+// --- Uniforms 
+_i = _i + ["U_LIB_USA_NCO_InfM41VgPmPvtRM1Gar"]; //  pvt
+_u = _u	+ [0];
+_p = _p	+ [25];
 
-_i = _i		+ ["LIB_15Rnd_762x33"];
-_u = _u		+ [0];
-_p = _p		+ [15];
+_i = _i + ["U_LIB_USA_NCO_InfM41VgPmPfcRM1Gar"]; // Pfc
+_u = _u	+ [0];
+_p = _p	+ [30];
 
-_i = _i		+ ["LIB_1Rnd_60mm_M6"];
-_u = _u		+ [0];
-_p = _p		+ [1];
+// --- Vests
+_i = _i + ["V_LIB_USA_VestGarand_00"];
+_u = _u	+ [0];
+_p = _p	+ [30];
 
-_i = _i		+ ["U_LIB_USA_NCO_InfM41VgPm1LtM1Car"];
-_u = _u		+ [0];
-_p = _p		+ [0];
+_i = _i + ["V_LIB_USA_VestAsstMG_00"];
+_u = _u	+ [0];
+_p = _p	+ [30];
 
-_i = _i		+ ["H_LIB_US_HelmetnsKaki0F_1LtWhiteWO"];
-_u = _u		+ [0];
-_p = _p		+ [0];
+// --- Backpacks
+_i = _i + ["B_LIB_US_M36_Rope"];
+_u = _u	+ [0];]
+_p = _p	+ [50];
 
-_i = _i		+ ["B_LIB_US_Radio_ACRE2"];
-_u = _u		+ [0];
-_p = _p		+ [1];
+// --- Weapons
+_i = _i + ["LIB_M1_Garand"];
+_u = _u	+ [0];
+_p = _p	+ [230];
+
+_i = _i + ["LIB_M1A1_Bazooka"];
+_u = _u	+ [0];
+_p = _p	+ [200];
+
+// --- Ammo
+_i = _i + ["LIB_8Rnd_762x63"];
+_u = _u	+ [0];
+_p = _p	+ [10];
+
+_i = _i + ["LIB_1Rnd_60mm_M6"];
+_u = _u	+ [0];
+_p = _p	+ [10];
+
 
 //--- Magazines
 _i = _i		+ ["ATMine_Range_Mag"];
@@ -151,7 +170,7 @@ _u = _u		+ [2];
 _p = _p		+ [60];
 
 
-_i = _i		+ ["LIB_M1A1_Bazooka"];
+_i = _i		+ ["NLAW_F"];
 _u = _u		+ [0];
 _p = _p		+ [250];
 
@@ -711,15 +730,15 @@ _u = _u		+ [0];
 _p = _p		+ [30];
 
 
-_i = _i		+ ["LIB_M1A1_Bazooka"];
+_i = _i		+ ["launch_NLAW_F"];
 _u = _u		+ [0];
 _p = _p		+ [350];
 
-_i = _i		+ ["LIB_M1A1_Bazooka"];
+_i = _i		+ ["launch_B_Titan_F"];
 _u = _u		+ [2];
 _p = _p		+ [900];
 
-_i = _i		+ ["LIB_M1A1_Bazooka"];
+_i = _i		+ ["launch_B_Titan_short_F"];
 _u = _u		+ [2];
 _p = _p		+ [650];
 
@@ -1107,8 +1126,8 @@ _u = _u		+ [0];
 _p = _p		+ [15];
 
 _i = _i		+ ["H_Beret_grn_SF"];
-_u = _u	        + [0];
-_p = _p	        + [15];
+_u = _u	    + [0];
+_p = _p	    + [15];
 
 _i = _i		+ ["H_Cap_headphones"];
 _u = _u		+ [0];
@@ -1440,7 +1459,7 @@ _t = _t 	+ [[[["arifle_MX_khk_gl_f",["","acc_pointer_ir","optic_aco", ""],["30rn
 _t = _t 	+ [[[["arifle_MX_khk_sw_f",["","acc_pointer_ir","optic_holosight", ""],["100rnd_65x39_caseless_mag"]],["",[],[]],["hgun_p07_f",[],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","100rnd_65x39_caseless_mag","100rnd_65x39_caseless_mag","100rnd_65x39_caseless_mag","100rnd_65x39_caseless_mag","100rnd_65x39_caseless_mag","100rnd_65x39_caseless_mag_tracer","100rnd_65x39_caseless_mag_tracer"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 _t = _t 	+ [[[["lmg_mk200_f",["","acc_pointer_ir","optic_holosight", ""],["200rnd_65x39_cased_box"]],["",[],[]],["hgun_p07_f",[],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","200rnd_65x39_cased_box","200rnd_65x39_cased_box","200rnd_65x39_cased_box","200rnd_65x39_cased_box","200rnd_65x39_cased_box"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 _t = _t 	+ [[[["srifle_ebr_f",["","acc_pointer_ir","optic_hamr", ""],["20rnd_762x51_mag"]],["",[],[]],["hgun_p07_f",["muzzle_snds_l","","",""],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade","muzzle_snds_b"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","20rnd_762x51_mag","democharge_remote_mag","democharge_remote_mag","democharge_remote_mag","apersboundingmine_range_mag","apersboundingmine_range_mag"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-_t = _t 	+ [[[["arifle_MX_khkc_f",["","acc_pointer_ir","optic_holosight", ""],["30rnd_65x39_caseless_mag"]],["LIB_M1A1_Bazooka",[],["nlaw_f"]],["hgun_p07_f",[],["16rnd_9x21_mag"]]],[["U_LIB_USA_NCO_InfM41VgPm1LtM1Car",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","nlaw_f","nlaw_f"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+_t = _t 	+ [[[["arifle_MX_khkc_f",["","acc_pointer_ir","optic_holosight", ""],["30rnd_65x39_caseless_mag"]],["launch_nlaw_f",[],["nlaw_f"]],["hgun_p07_f",[],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","nlaw_f","nlaw_f"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 _t = _t 	+ [[[["arifle_MX_khkc_f",["","acc_pointer_ir","optic_holosight", ""],["30rnd_65x39_caseless_mag"]],["launch_b_titan_f",[],["titan_aa"]],["hgun_p07_f",[],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["firstaidkit","firstaidkit"]],["V_PlateCarrier2_rgr",["handgrenade","handgrenade"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","30rnd_65x39_caseless_mag","titan_aa"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 _t = _t 	+ [[[["srifle_lrr_f",["","","optic_sos", ""],["7rnd_408_mag"]],["",[],[]],["hgun_p07_f",["muzzle_snds_l","","",""],["16rnd_9x21_mag"]]],[["u_b_ghilliesuit",[]],["V_Chestrig_rgr",["firstaidkit","firstaidkit","handgrenade","handgrenade","smokeshellblue","smokeshellblue"]],["b_assaultpack_mcamo",["16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","16rnd_9x21_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag","7rnd_408_mag"]]],["h_helmetb",""],[["nvgoggles","Rangefinder"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 

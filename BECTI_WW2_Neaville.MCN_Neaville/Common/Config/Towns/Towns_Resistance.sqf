@@ -1,18 +1,18 @@
 with missionNamespace do {
 	//--- Infantry
-	GUER_SOLDIER = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_AA = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_AR = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_AT = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_CREW = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_LAT = "LNRD_Luftwaffe_AT_grenadier";
+	GUER_SOLDIER = "I_C_Soldier_Para_7_F";
+	GUER_SOLDIER_AA = "I_C_Soldier_Para_5_F";
+	GUER_SOLDIER_AR = "I_C_Soldier_Para_4_F";
+	GUER_SOLDIER_AT = "I_C_Soldier_Para_5_F";
+	GUER_SOLDIER_CREW = "I_C_Helipilot_F";
+	GUER_SOLDIER_LAT = "I_C_Soldier_Para_5_F";
 	GUER_SOLDIER_HAT = "I_C_Soldier_Para_5_F";
-	GUER_SOLDIER_ENGINEER = "LNRD_Luftwaffe_AT_grenadier";
+	GUER_SOLDIER_ENGINEER = "I_C_Soldier_Para_8_F";
 	GUER_SOLDIER_GL = "I_C_Soldier_Para_6_F";
-	GUER_SOLDIER_MEDIC = "LNRD_Luftwaffe_AT_grenadier";
+	GUER_SOLDIER_MEDIC = "I_C_Soldier_Para_3_F";
 	GUER_SOLDIER_PILOT = "I_C_Helipilot_F";
-	GUER_SOLDIER_SQUADLEADER = "LNRD_Luftwaffe_AT_grenadier";
-	GUER_SOLDIER_SNIPER = "LNRD_Luftwaffe_AT_grenadier";
+	GUER_SOLDIER_SQUADLEADER = "I_C_Soldier_Para_1_F";
+	GUER_SOLDIER_SNIPER = "I_G_Sharpshooter_F";
 	GUER_SOLDIER_MARKSMAN = "I_G_Soldier_M_F";
 	GUER_SOLDIER_TEAMLEADER = "I_C_Soldier_Para_2_F";
 

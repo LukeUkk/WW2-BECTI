@@ -10,8 +10,20 @@ _u = []; //--- Upgrade level needed.    0 1 2 3...
 _f = []; //--- Built from Factory.
 _s = []; //--- Script
 
+
+//--- WW2 ---
+//--- Vehicals 
+_c = _c + ['LIB_US_GMC_Ambulance'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [725];
+_t = _t + [20];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + ["service-medic"];
+
 //--- Infantry
-_c = _c + ['LIB_USA_NCO_AT_soldier_infM41VgPmPfcM1Car'];
+_c = _c + ['B_T_Soldier_A_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [190];
@@ -47,7 +59,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['LIB_US_Bomber_Crew'];
+_c = _c + ['B_T_crew_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [120];
@@ -128,7 +140,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['LIB_USA_NCO_AT_soldier_InfM41VgPmPvtRM1Gar'];
+_c = _c + ['B_T_Soldier_lite_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [120];
@@ -380,7 +392,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['LIB_USA_NCO_PilotM41VmPm1LtColt'];
+_c = _c + ['B_T_Pilot_F'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [120];
@@ -452,7 +464,7 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-
+///---------------------------------------------------------
 
 _c = _c + ['B_UGV_01_F'];
 _p = _p + [''];
@@ -473,7 +485,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
-
+///---------------------------------------------------------
 
 _c = _c + ['B_Quadbike_01_F'];
 _p = _p + [''];
