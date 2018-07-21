@@ -18,8 +18,9 @@ Decide if we are gonna make an independent team for the USA ww2 units as they ar
 * Add units created in factory_E/W.sqf in to the correct places in \\\\ Common\Config\Towns "All files"
 
 * Again set units used from another file done and replce the units in \\\\ Common\Config\Units "West/East/Idpn"
-
-[B PLAN ]
+ 
+ 
+# PLAN
 * Luke Focus on USA gear units ect 
 * Cross Focus on Russian gear \\\\ Link to help https://forums.bohemia.net/forums/topic/127617-classnames/
 * Then merge it together 
