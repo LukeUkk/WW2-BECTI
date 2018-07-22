@@ -24,7 +24,7 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAtt
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["B_Soldier_F", 5], ["B_soldier_AR_F", 2, 80], ["B_HeavyGunner_F", 1, 50], ["B_medic_F", 1], ["B_soldier_LAT_F", 1, 70], ["B_Soldier_GL_F", 2, 90], ["B_sniper_F", 1, 70], ["B_soldier_M_F", 1, 55]]];
+_p = _p		+ [[["LIB_USA_NCO_InfM41VgPmPfcRM1Gar", 5], ["B_soldier_AR_F", 2, 80], ["B_HeavyGunner_F", 1, 50], ["B_medic_F", 1], ["B_soldier_LAT_F", 1, 70], ["B_Soldier_GL_F", 2, 90], ["B_sniper_F", 1, 70], ["B_soldier_M_F", 1, 55]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1725];
 _c = _c		+ ["Infantry"];
