@@ -24,7 +24,7 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAtt
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["LIB_USA_NCO_InfM41VgPmPfcRM1Gar", 5], ["B_soldier_AR_F", 2, 80], ["B_HeavyGunner_F", 1, 50], ["B_medic_F", 1], ["B_soldier_LAT_F", 1, 70], ["B_Soldier_GL_F", 2, 90], ["B_sniper_F", 1, 70], ["B_soldier_M_F", 1, 55]]];
+_p = _p		+ [[["LIB_USA_NCO_InfM41VgPmSgtM1Tho", 5], ["LIB_USA_NCO_mgunner_InfM41VgPmPfcM1Bar", 2, 80], ["LIB_USA_NCO_mgunner_InfM41VgPmPfcM1919A6", 1, 50], ["LIB_USA_NCO_InfM41VgPmPvtMedM1Car", 1], ["LIB_USA_NCO_AT_soldier_InfM41VgPmPfcM1Car", 1, 70], ["LIB_USA_NCO_InfM41VgPmPfcGM1Gar", 2, 90], ["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 1, 70], ["LIB_USA_NCO_AT_soldier_InfM41VgPmPvtM1Gar", 1, 55]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1725];
 _c = _c		+ ["Infantry"];
@@ -32,7 +32,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAT"];
 _t = _t		+ ["Infantry - AT"];
-_p = _p		+ [[["B_soldier_AT_F", 5, 85], ["B_medic_F", 1], ["B_soldier_LAT_F", 3, 75]]];
+_p = _p		+ [[["LIB_USA_NCO_AT_soldier_InfM41VgPmPfcM1Car", 5, 85], ["LIB_USA_NCO_InfM41VgPmPvtMedM1Car", 1], ["LIB_USA_NCO_AT_soldier_InfM41VgPmPvtM1Gar", 3, 75]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [4865];
 _c = _c		+ ["InfantryAT"];
@@ -40,7 +40,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["B_soldier_AA_F", 5, 85], ["B_medic_F", 1], ["B_soldier_LAT_F", 2, 60]]];
+_p = _p		+ [[["B_soldier_AA_F", 5, 85], ["LIB_USA_NCO_InfM41VgPmPvtMedM1Car", 1], ["B_soldier_LAT_F", 2, 60]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2415];
 _c = _c		+ ["InfantryAA"];
@@ -48,7 +48,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryRanged"];
 _t = _t		+ ["Infantry - Marksmen"];
-_p = _p		+ [[["B_soldier_M_F", 2], ["B_Spotter_F", 1], ["B_Sharpshooter_F", 1]]];
+_p = _p		+ [[["LIB_USA_NCO_mgunner_InfM41VgPmPfcM1919A6", 2], ["LIB_USA_NCO_InfM41VgPmCplMedM1Gar", 1], ["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1300];
 _c = _c		+ ["InfantryAdvanced"];
@@ -56,7 +56,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantrySniper"];
 _t = _t		+ ["Infantry - Snipers"];
-_p = _p		+ [[["B_sniper_F", 2], ["B_Spotter_F", 1], ["B_ghillie_sard_F", 1]]];
+_p = _p		+ [[["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 2], ["B_Spotter_F", 1], ["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1450];
 _c = _c		+ ["InfantryAdvanced"];

@@ -3,77 +3,119 @@ private ["_faction", "_i", "_p", "_side", "_u"];
 _side = _this;
 _faction = "West";
 
+_i = [];
+_u = [];
+_p = [];
+
+
 //  ----------WW2 Gear----------
 
 // --- Helms
-_i = _i + ["H_LIB_US_HelmetNetnsKaki0C_NxNx"]; //  pvt
-_u = _u	+ [0];
-_p = _p	+ [20];
+_i = _i 	+ ["H_LIB_US_HelmetnsKaki1C_ColMetalWO"];
+_u = _u		+ [0];
+_p = _p		+ [20];
+
+_i = _i 	+ ["H_LIB_US_HelmetNetnsKaki0C_NxNx"]; //  pvt
+_u = _u		+ [0];
+_p = _p		+ [20];
+
 _i = _i + ["H_LIB_US_Pilot_Cap"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + [" H_LIB_US_Pilot_Cap_Khaki"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_Cap "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_First_lieutenant "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_NCO "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_ns "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_os "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Rangers_Helmet_Second_lieutenant"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_AB_Helmet_Medic_1"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_MedCRBBx2x4"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_AB_Helmet_NCO_1"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
+_i = _i + ["H_LIB_US_Helmet_MedCRRBx2x4"];
+_u = _u	+ [0];
+_p = _p	+ [20];
 //GEIST
+_i = _i + ["H_LIB_US_Helmet_Pilot_CO"];
+_u = _u	+ [0];
+_p = _p	+ [10];
+
 _i = _i + ["H_LIB_US_HelmetKaki1F_NCONxNx"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["H_LIB_US_Helmet_Cap"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_First_lieutenant"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_CO"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet"];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_Med "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_Net_ns "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_Net_os "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_Pilot "];
 _u = _u	+ [0];
 _p = _p	+ [20];
+
 _i = _i + ["H_LIB_US_Helmet_Tank "];
+_u = _u	+ [0];
+_p = _p	+ [20];
+
+_i = _i + ["H_LIB_US_HelmetnsKaki0C_NCONxNx"];
 _u = _u	+ [0];
 _p = _p	+ [20];
 
@@ -81,8 +123,22 @@ _i = _i + ["H_LIB_US_Helmet_Pilot_Glasses_Up "];
 _u = _u	+ [0];
 _p = _p	+ [20];
 
+_i = _i + ["H_LIB_US_HelmetosKaki0C_NxNx "];
+_u = _u	+ [0];
+_p = _p	+ [20];
 
+_i = _i + ["H_LIB_US_HelmetnsKaki0F_NxNx "];
+_u = _u	+ [0];
+_p = _p	+ [20];
+
+_i = _i + ["H_LIB_US_HelmetNetosKaki1C_NxNx "];
+_u = _u	+ [0];
+_p = _p	+ [20];
 // --- Uniforms 
+_i = _i + ["U_LIB_USA_NCO_InfM41VgPmPfcGM1Gar"];
+_u = _u	+ [0];
+_p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VgPmPvtRM1Gar"]; //  pvt
 _u = _u	+ [0];
 _p = _p	+ [25];
@@ -99,6 +155,14 @@ _i = _i + ["U_LIB_USA_NCO_InfM41VgPmPvtMedM1Car "]; // med
 _u = _u	+ [0];
 _p = _p	+ [25];
 
+_i = _i + ["U_LIB_USA_NCO_AT_soldier_InfM41VgPmPfcM1Car "]; //AT
+_u = _u	+ [0];
+_p = _p	+ [25];
+
+_i = _i + ["U_LIB_USA_NCO_InfM41VgPmColM1911Colt"];
+_u = _u	+ [0];
+_p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VgPmTechCplM1Gar "]; // TechCpl
 _u = _u	+ [0];
 _p = _p	+ [25];
@@ -106,237 +170,359 @@ _p = _p	+ [25];
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPh1LtM1Car"]; // 1Lt
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPh2LtM1Car"]; //2nd lt
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPhCplIRM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPhCplMedIRM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VgPmPfcRM1Gar"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPhPfcRIRM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VhPhPvtRM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VvPmTechCplM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
 _i = _i + ["U_LIB_USA_NCO_InfM41VvPmTechSgtM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VvPmTechSSgM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_InfM41VvPmTSgtM1Tho "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_PilotM41VmPm1LtColt"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_USA_NCO_radioman_InfM41VhPhTechPfcIRM1Gar "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Tank_Crew "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Uniform"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Corp "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Eng "];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Med"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Private_1st"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Sergant"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Rangers_Uniform"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Sergant"];
 _u = _u	+ [0];
 _p = _p	+ [25];
+
 _i = _i + ["U_LIB_US_Tank_Crew"];
 _u = _u	+ [0];
 _p = _p	+ [25];
 
+_i = _i + ["U_LIB_USA_NCO_InfM41VgPmPvtMedM1Car"];
+_u = _u	+ [0];
+_p = _p	+ [25];
+
+_i = _i + ["U_LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr"];
+_u = _u	+ [0];
+_p = _p	+ [25];
+
+_i = _i + ["U_LIB_USA_NCO_sapper_InfM41VgPmTechCplM1Gar"];
+_u = _u	+ [0];
+_p = _p	+ [25];
 // --- Vests
+
+_i = _i + ["V_LIB_USA_VestCarbineEng_00"];
+_u = _u	+ [0];
+_p = _p	+ [30];
+
 _i = _i + ["V_LIB_USA_VestGarand_00"];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
+_i = _i + ["V_LIB_USA_VestCarbineNCO_02"];
+_u = _u	+ [0];
+_p = _p	+ [30];
+
 _i = _i + ["V_LIB_USA_VestAsstMG_00"];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_USA_VestThompsonNCO_03"];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_45 "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Asst_MG "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Bar "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Carbine "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Carbine_eng "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Carbine_nco_Radio "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Grenadier "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_AB_Vest_Garand "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_VestMedic2_00 "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_VestMedic2_CBCR "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_Vest_Thompson_nco_Radio "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_VestMedic_00 "];
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_USA_VestThompson_00"]; 
 _u = _u	+ [0];
 _p = _p	+ [30];
+
 _i = _i + ["V_LIB_US_LifeVest"]; 
 _u = _u	+ [0];
-_p = _p	+ [30]
+_p = _p	+ [30];
+
+_i = _i + ["V_LIB_US_VestMedic2_RBCR"]; 
+_u = _u	+ [0];
+_p = _p	+ [30];
+
+_i = _i + ["V_LIB_US_VestGrenadier_00"]; 
+_u = _u	+ [0];
+_p = _p	+ [30];
+
 // --- Backpacks
 _i = _i + ["B_LIB_US_M36_Rope"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Backpack"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Backpack_dday"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Backpack_RocketBag_Empty"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
+_i = _i + ["B_LIB_US_RocketBag"];
+_u = _u	+ [0];
+_p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_M2Flamethrower"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_M36"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_M36_Bandoleer"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Radio_ACRE2"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Radio"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
 _i = _i + ["B_LIB_US_Backpack_Vide"];
-_u = _u	+ [0];]
+_u = _u	+ [0];
 _p = _p	+ [50];
+
+_i = _i + ["B_LIB_US_MedicBackpack"];
+_u = _u	+ [0];
+_p = _p	+ [50];
+
+_i = _i + ["B_LIB_USA_Backpack_Grenades"];
+_u = _u	+ [0];
+_p = _p	+ [50];
+
+_i = _i + ["B_LIB_GER_LW_Paradrop"];
+_u = _u	+ [0];
+_p = _p	+ [50];
+
+_i = _i + ["B_LIB_USA_Backpack_Explosifs"];
+_u = _u	+ [0];
+_p = _p	+ [50];
+
 // --- Weapons
 // --- GEIST
 _i = _i + ["GLIB_FIN_M26"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_FRA_MAS36"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_BEL_PISFNGP35"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_FIN_L35"];// //
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_FRA_PA35A"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_FRA_REV1982"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_GBR_ENF2MK1"];//
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_FIN_KP31m"];
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["GLIB_POL_WZ28"];
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 // --- USA Lib ---
 _i = _i + ["LIB_M1_Garand"];
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["LIB_M1_Carbine"]; //
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["LIB_M1A1_Carbine"];//LIB_15Rnd_762x33
 _u = _u	+ [0];
 _p = _p	+ [230];
+
 _i = _i + ["LIB_DELISLE"];//
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1903A3_Springfield"];// //
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1903A4_Springfield"];//
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1918A2_BAR"];//
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1919A4"];//
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1919A6"]; //
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1928_Thompson"]; //
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1928A1_Thompson"];  //
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1A1_Thompson"]; //  _t
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M3_GreaseGun"]; //LIB_30Rnd_45ACP _t
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M2_Flamethrower"]; //
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M38"]; 
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M44"]; 
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M9130"];
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1A1_Bazooka"];
 _u = _u	+ [0];
 _p = _p	+ [200];
@@ -344,9 +530,11 @@ _p = _p	+ [200];
 _i = _i + ["LIB_Colt_M1911"];
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_FLARE_PISTOL"]; 
 _u = _u	+ [0];
 _p = _p	+ [200];
+
 _i = _i + ["LIB_M1895"]; //
 _u = _u	+ [0];
 _p = _p	+ [200];
@@ -363,96 +551,127 @@ _p = _p	+ [10];
 _i = _i + ["LIB_1Rnd_60mm_M6"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_US_Mk_2"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_FIN_5Rnd_762x54mm"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_FRA_5Rnd_75x54mm"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_BEL_13Rnd_9x19mm"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_FIN_8Rnd_9x19mm"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_8Rnd_9x19_P08"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_FRA_8Rnd_765mmLong"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_FRA_6Rnd_827mm"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["GLIB_GBR_6Rnd_380British"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_15Rnd_762x33"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_7Rnd_45ACP"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_5Rnd_762x63"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_5Rnd_762x63_t"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_20Rnd_762x63"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_50Rnd_762x63"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_50Rnd_762x63_t"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_30Rnd_45ACP"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_30Rnd_45ACP_t"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_M2_Flamethrower_Mag"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_5Rnd_762x54"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_5Rnd_762x54"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_1Rnd_flare_white"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_1Rnd_flare_red"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_1Rnd_flare_green"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_7Rnd_762x38"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_F1"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_US_M18"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_US_M18_Green"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_US_M18_Red"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_US_M18_Yellow"];
 _u = _u	+ [0];
 _p = _p	+ [10];
+
 _i = _i + ["LIB_RDG"];
 _u = _u	+ [0];
 _p = _p	+ [10];
