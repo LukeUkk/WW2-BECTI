@@ -1,5 +1,5 @@
 _side = _this;
-_faction = "East";
+_faction = "east";
 
 _c = []; //--- Classname
 _p = []; //--- Picture. 				'' = auto generated.

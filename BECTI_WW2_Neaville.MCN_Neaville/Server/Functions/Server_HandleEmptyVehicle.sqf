@@ -46,10 +46,10 @@ while {alive _vehicle && time - _timeout <= _delay} do {
 };
 
 //--- If we got out of the loop then we can just delete the vehicle
-if (alive _vehicle) && (vehicle == locked)then {
-	
+if (alive _vehicle) && (_vehicle == locked)then {
 	}
-	else {
+	Else 
+	{
 		deleteVehicle _vehicle
 	};
 };

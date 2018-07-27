@@ -40,7 +40,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["B_soldier_AA_F", 5, 85], ["LIB_USA_NCO_InfM41VgPmPvtMedM1Car", 1], ["B_soldier_LAT_F", 2, 60]]];
+_p = _p		+ [[["LIB_USA_NCO_mgunner_InfM41VgPmCplM1919A6", 5, 85], ["LIB_USA_NCO_InfM41VgPmPvtMedM1Car", 1], ["LIB_USA_NCO_AT_soldier_InfM41VgPmPfcM1Car", 2, 60]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2415];
 _c = _c		+ ["InfantryAA"];
@@ -56,7 +56,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantrySniper"];
 _t = _t		+ ["Infantry - Snipers"];
-_p = _p		+ [[["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 2], ["B_Spotter_F", 1], ["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 1]]];
+_p = _p		+ [[["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 2], ["LIB_USA_NCO_InfM41VgPmSgtM1Tho", 1], ["LIB_USA_NCO_sniper_InfM41VvPmSgtM1903Spr", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1450];
 _c = _c		+ ["InfantryAdvanced"];
@@ -72,7 +72,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["Motorized"];
 _t = _t		+ ["Motorized - MPRAP"];
-_p = _p		+ [[["B_MRAP_01_hmg_F", 3], ["B_MRAP_01_gmg_F", 2, 75]]];
+_p = _p		+ [[["LIB_usa_M3_Scout_FFV", 3], ["LIB_USA_GMC_CCKW353cf_KakiTent", 2, 75]]];
 _f = _f		+ [CTI_LIGHT];
 _m = _m		+ [6500];
 _c = _c		+ ["Motorized"];
@@ -80,7 +80,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["Mechanized"];
 _t = _t		+ ["Mechanized - APC"];
-_p = _p		+ [[["B_APC_Wheeled_01_cannon_F", 1], ["B_APC_Tracked_01_rcws_F", 1, 80]]];
+_p = _p		+ [[["LIB_USA_M3_Halftrack", 1], ["LIB_usa_M3_Scout_FFV", 1, 80]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [6100];
 _c = _c		+ ["Mechanized"];
@@ -88,7 +88,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["MechanizedHeavy"];
 _t = _t		+ ["Mechanized - APC (Heavy)"];
-_p = _p		+ [[["B_APC_Tracked_01_rcws_F", 1]]];
+_p = _p		+ [[["LIB_M5A1_Stuart", 1]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [4450];
 _c = _c		+ ["Mechanized"];
@@ -96,7 +96,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["Armored"];
 _t = _t		+ ["Armored - MBT"];
-_p = _p		+ [[["B_MBT_01_cannon_F", 1], ["B_MBT_01_TUSK_F", 1]]];
+_p = _p		+ [[["LIB_USA_M4A4_FIREFLY", 1], ["LIB_M4A3_76", 1]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [15150];
 _c = _c		+ ["Armored"];
@@ -104,7 +104,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["AntiAir"];
 _t = _t		+ ["Armored - Anti Air"];
-_p = _p		+ [[["B_APC_Tracked_01_AA_F", 1]]];
+_p = _p		+ [[["sab_mustang", 1]]];
 _f = _f		+ [CTI_HEAVY];
 _m = _m		+ [5650];
 _c = _c		+ ["AntiAir"];
@@ -112,7 +112,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
-_p = _p		+ [[["B_Heli_Attack_01_F", 1]]];
+_p = _p		+ [[["sab_gladiator", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [86000];
 _c = _c		+ ["Air"];
@@ -120,7 +120,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Air - Attack"];
-_p = _p		+ [[["B_Plane_CAS_01_F", 1]]];
+_p = _p		+ [[["sab_b52", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [100000];
 _c = _c		+ ["Air"];

@@ -24,7 +24,8 @@
 if (typeName _this != "SIDE") exitWith {grpNull};
 
 switch (_this) do {
-	case west: {CTI_WEST getVariable "cti_commander"};
+	//case west: {CTI_WEST getVariable "cti_commander"};
+	case resistance: {CTI_RESISTANCE getVariable "cti_commander"};
 	case east: {CTI_EAST getVariable "cti_commander"};
 	default {grpNull};
 }

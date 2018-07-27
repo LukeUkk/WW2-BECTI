@@ -24,8 +24,9 @@
 if (typeName _this != "SIDE") exitWith {objNull};
 
 switch (_this) do {
-	case west: {CTI_WEST};
+	case resistance: {CTI_RESISTANCE};
+	//case west: {CTI_WEST};
 	case east: {CTI_EAST};
-	// case resistance: {};
+	
 	default {objNull}
 }

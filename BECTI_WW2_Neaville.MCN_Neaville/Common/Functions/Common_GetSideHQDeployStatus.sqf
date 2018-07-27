@@ -26,6 +26,8 @@
 switch (_this) do {
 	case west: {CTI_WEST getVariable "cti_hq_deployed"};
 	case east: {CTI_EAST getVariable "cti_hq_deployed"};
+	case resistance: {CTI_RESISTANCE getVariable "cti_hq_deployed+"};
+
 	default {objNull};
 }
 

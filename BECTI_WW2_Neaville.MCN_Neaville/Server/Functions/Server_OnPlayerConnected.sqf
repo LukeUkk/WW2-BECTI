@@ -50,8 +50,11 @@ _side = side _team;
 if !(_side in [west, east, resistance]) then {_side = switch (getNumber(configFile >> "CfgVehicles" >> typeOf _leader >> "side")) do {case 0: {east}; case 1: {west}; case 2: {resistance}; default {civilian}}};
 if !(_side in [west, east, resistance]) exitWith {if (CTI_Log_Level >= CTI_Log_Error) then {["ERROR", "FILE: Server\Functions\Server_OnPlayerConnected.sqf", format["Player [%1] [%2] side couldn't be determined", _name, _uid]] call CTI_CO_FNC_Log}};
 
+
 _logic = (_side) call CTI_CO_FNC_GetSideLogic;
+
 _teams = _logic getVariable "cti_teams";
+
 if !(_team in _teams) then {
 	[_team, _side] call CTI_SE_FNC_InitializeGroup;
 	
@@ -61,6 +64,7 @@ if !(_team in _teams) then {
 	//--- Update the global teams
 	_logic setVariable ["cti_teams", _teams - [objNull] + [_team], true];
 };
+
 
 //--- We force the unit out of it's vehicle.
 if !(isNull assignedVehicle _leader) then { unassignVehicle _leader; [_leader] orderGetIn false; [_leader] allowGetIn false };

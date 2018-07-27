@@ -24,7 +24,8 @@
 if (typeName _this != "SIDE") exitWith {objNull};
 
 switch (_this) do {
-	case west: {CTI_WEST getVariable "cti_hq"};
+	case resistance: {CTI_RESISTANCE getVariable "cti_hq"};
+	//case west: {CTI_WEST getVariable "cti_hq"};
 	case east: {CTI_EAST getVariable "cti_hq"};
 	default {objNull};
 }
